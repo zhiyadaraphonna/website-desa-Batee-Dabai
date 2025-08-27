@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta name="google-site-verification" content="bWuSWq7Bg5F6ZnBp-Fj_JwJCTb7dS7w5F2VqEZAA9JY" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Resmi Desa Batee Dabai</title>
+  <meta name="description" content="Website resmi Desa Batee Dabai. Transparansi, layanan cepat, dan promosi potensi desa untuk kesejahteraan warga.">
+  <meta name="keywords" content="Desa Batee Dabai, Website Desa, Potensi Desa, Pemerintahan Desa">
+  <meta name="author" content="Pemerintah Desa Batee Dabai">
+
+  <style>
+    :root {
+      --primary: #726f82f4; /* hijau tua */
+      --accent: #FFD700; /* emas */
+      --bg: #ffffff;
+      --ink: #0f172a; /* slate-900 */
+      --muted: #475569; /* slate-600 */
+      --card: #f8fafc; /* slate-50 */
+      --ring: rgba(0,100,0,.25);
+      --radius: 18px;
+      --shadow: 0 10px 20px rgba(2,6,23,.06);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 15px 25px; background: var(--primary); color: #fff;
+      position: sticky; top: 0; z-index: 100;
+    }
+    header img { height: 50px; }
+    header h1 { font-size: 1.2rem; }
+
+    nav ul { list-style: none; display: flex; gap: 15px; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+
+    /* Tombol menu mobile */
+    .menu-btn { display: none; font-size: 1.5rem; background: none; border: none; color: #fff; cursor: pointer; }
+    .mobile-menu { display: none; background: var(--primary); padding: 10px; }
+    .mobile-menu ul { list-style: none; }
+    .mobile-menu li { margin: 10px 0; }
+    .mobile-menu a { color: #fff; text-decoration: none; }
+
+    /* Hero */
+    .hero {
+      background: url("img/sawit.jpg") no-repeat center center/cover;
+      padding: 80px 20px; text-align: center; color: #fff; border-radius: var(--radius);
+      box-shadow: var(--shadow); margin: 20px;
+    }
+    .hero h2 { font-size: 2rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.2rem; }
+
+    section { padding: 40px 20px; }
+    h2 { color: var(--primary); margin-bottom: 20px; }
+
+    .card {
+      background: var(--card); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+    footer {
+      background: var(--primary); color: #fff; text-align: center; padding: 15px; margin-top: 30px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      nav ul { display: none; }
+      .menu-btn { display: block; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <img src="img\logo.png" alt="Logo Desa">
+      <h1>Desa Batee Dabai</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#potensi">Potensi</a></li>
+        <li><a href="#alamat">Alamat</a></li>
+      </ul>
+    </nav>
+    <button id="menuBtn" class="menu-btn">☰</button>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <ul>
+      <li><a href="#beranda" onclick="closeMenu()">Beranda</a></li>
+      <li><a href="#profil" onclick="closeMenu()">Profil</a></li>
+      <li><a href="#potensi" onclick="closeMenu()">Potensi</a></li>
+      <li><a href="#alamat" onclick="closeMenu()">Alamat</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section id="beranda" class="hero">
+    <h2>Selamat Datang di Desa Batee Dabai</h2>
+    <p>Transparansi, layanan cepat, dan promosi potensi desa untuk kesejahteraan warga.</p>
+  </section>
+
+  <!-- Profil Desa -->
+  <section id="profil">
+    <h2>Profil Desa</h2>
+    <div class="card">
+      <h3>Sejarah</h3>
+      <p>Pada masa puluhan tahun yang lalu ada sekelompok orang yang bertani dan berkebun dengan cara membuka lahan baru, mereka berasal dari Desa Cot Baroh Kecamatan Gandapura dan Pante Baro Kecamatan Peusangan Kabupaten Bireuen. Mereka berjalan kaki setiap hari dari Desa Cot Baroh menuju kelokasi untuk bertani dan berkebun dimana kondisi saat itu belum ada Jalan dan Alat Transportasi yang layak. Karena Merasa Lelah mereka Istirahat disebuah Bukit yang tidak ada jalan lain untuk dilewati.
+            Pada Bukit itu mereka beristirahat dan menggali bukit tersebut untuk dibangun tempat pengistirahatan yang kemudian dijadikan sebagai tempat tinggal sementara, pada saat penggalian ternyata susah untuk digali karena terdapat Lapisan Batu yang sangat Tebal dan  dalam bahasa Aceh Batu adalah Batee, Tebal adalah Dabai. Sehingga mereka membari nama tempat tinggal mereka dengan Nama Batee Dabai. Bermula dari situlah dan semakin lama semakin banyak orang-orang yang datang untuk membuka lahan baru sehingga tokoh-tokoh yang ada berinisiatif membuat musyawarah guna untuk membuat aturan-aturan dalam menjalankan keseharian mereka dalam bertani dan berkebun.
+            Lambat Laun, Hari  berganti bulan, bulan berganti tahun para Tokoh dan Masyarakat yang bertani tersebut berinisiatif kembali untuk menjadikan Lokasi tempat tinggal dan mencari Nafkah tersebut diusulkan menjadi Gampong dengan Nama Batee Dabai. Namun ditolak oleh pihak Kabupaten dan di anjurkan untuk bergabung dengan Desa Alue Dua dengan status Dusun itu bertepatan tahun 1975. Dengan status dusun tokoh-tokoh Batee Dabai tidak tinggal diam walaupun melewati tahun yang panjang namun perjuangan tersebut disetujui oleh Kabupaten pada pertengahan tahun 2004 Batee Dabai Disahkan Menjadi Gampong Definitif. Sebagian besar penduduk Batee Dabai bermata pencaharian sebagai petani Sawah, Pekebun dan sebagian kecil Buruh dan pedagang.</p>
+            <h4>Peristiwa</h4>
+    
+            <p>Pada Tahun 1970-1975 Desa Batee Dabai Dipimpin Oleh Tgk.Basyah Ali Dengan Status Peutua Wilayah.</p>
+             <p>Pada Tahun 1975-1997 Desa Batee Dabai Dipimpin Oleh Tgk. Abakar Rayeuk.</p>
+             <p>Pada Tahun 1997-1999 Desa Batee Dabai Dipimpin Oleh M. Amin Hasan dengan Status Desa Swadaya.</p>
+             <p>Pada Tahun 1999-2001 Desa Batee Dabai Dipimpin Oleh M. Yunus dengan Status Desa Swadaya.</p>
+             <p>Pada Tahun 2001-2006 Desa Batee Dabai Dipimpin Oleh Keuchik Syarifuddin Ben. 2001-2004 Status Desa Swadaya dan Pada Tahun 2004-2006 Status Keuchik Sementara Masa Darurat Militer.</p>
+             <P>Pada Tahun 2006-2011 Desa Batee Dabai Dipimpin Oleh Keuchik M. Yunus.</P>
+             <p>Pada Tahun 2011-2017 Desa Batee Dabai Dipimpin Oleh Keuchik Muhammad Husen.</p>
+             <p>Pada Tahun 2017-2023 Desa Batee Dabai Dipimpin Oleh Keuchik M. Yunus Yang Mana Yang Bersangkutan Juga Sudah Pernah Menjabat Satu Periode Sebelumnya Tahun 2006-2011.</p>
+             <p>Pada Tanggal 14 November 2023 Dilantiklah Keuchik Hasil Pemilihan Keuchik Desa Batee Dabai yang Baru yaitu Keuchik Suhardi.</p>
+             <h3>Visi</h3>
+            <p>Mewujudkan Pembangunan Berkelanjutan Di Gampoeng Batee Dabai Dalam 6 Tahun Ke Depan Guna Meningkatkan Kesejahteraan Masyarakat Serta Memberdayakan Petani Untuk Mencapai Kemandirian Ekonomi.</p>
+            <h3>Misi</h3>
+            <ul>
+            <li>Membangun Dan Memperbaiki Jalan Desa,Irigasi Pertanian,Serta Sarana dan Prasarana Umum Untuk Mendukung Aktivitas Masyarakat.</li>
+            <li>Mengembangkan Fasilitas Pendidikan Dan Kesehatan Yang Berkualitas.</li>
+            <li>Memberdayakan Usaha Mikro Kecil Dan Menengah(UMKM) Dengan Pelatihan Dan Akses Permodalan.</li>
+            <li>Mengembangkan Sektor Pertanian Melalui Teknologi Pertanian Modern Dan Akses Pasar Yang Lebih Luas.</li>
+            <li>Menyediakan Bantuan Sarana Produksi Pertanian Seperti Pupuk,Benih Unggul,Dan Alat Pertanian Modern.</li>
+            <li>Membentuk Kelompok Pemburu Hama.</li>
+            <li>Meningkatkan Transparansi Dan Partisipasi Masyarakat Dalam Perencanaan Pembangunan.</li>
+            <li>Menyelenggarakan Pelatihan Keterampilan Bagi Pemuda Dan Masyarakat Guna Meningkatkan Daya Saing Kerja.</li>
+            <li>Memperkuat Peran Perangkat Gampoeng Dalam Pelayanan Publik Yang Efisien Dan Akuntabel.</li>
+            <li>Memfasilitasi Pendidikan Formal Dan Non Formal Bagi Anak-Anak Dan Orang Dewasa Di Gampoeng.</li>
+            <li>Mengelola Sampah Dan Menjaga Kebersihan Lingkungan Untuk Meningkatkan Kualitas Hidup Masyarakat.</li>
+            <li>Membangun Rumah Layak Huni Bagi Masyarakat Miskin.</li>
+            <li>Membagikan BLT Kepada Masyarakat Miskin Ekstrim.</li>
+          </ul>
+            <!-- STRUKTUR PEMERINTAHAN -->
+    <section id="struktur" class="section">
+      <h2>Struktur Pemerintahan</h2>
+      <article class="card">
+        <ul>
+          <li><strong>Keuchik:</strong> Suhardi</li>
+          <li><strong>Keurani Gampong:</strong> Yusri</li>
+          <li><strong>Imum Meunasah:</strong> Tgk. Suryadi</li>
+          <li><strong>Tuhapeut:</strong> Ketua M. Jafar, Wakil Husaini Us, Sekretaris Ridwan Rasyid, Anggota Juhari</li>
+          <li><strong>Tuha Lapan:</strong> Alamsyah Ismail, Muhammad Husen, Abakar Zakaria, Harmidi, Agusni, Marzuki, M. Isa, Darniati</li>
+          <li><strong>Kasi Pemerintahan:</strong> Mulyadi M. Amin</li>
+          <li><strong>Kasi Pembangunan:</strong> Muhammad Husen</li>
+          <li><strong>Kaur Umum:</strong> Zainuddin</li>
+          <li><strong>Kaur Keuangan:</strong> DahruI Amani</li>
+          <li><strong>Kadus Cot Baloi:</strong> Saifuddin</li>
+          <li><strong>Kadus Beudari:</strong> Rahmadi Ilyas</li>
+          <li><strong>Kadus Cot Beurinyen:</strong> Fadli</li>
+        </ul>
+      </article>
+        
+      <img src="img\Struktur Pemerintah.jpg" alt="Struktur Pemerintahan" style="width:100%;border-radius:var(--radius);margin-top:15px;">
+    </div>
+  </section>
+
+  <!-- Potensi Desa -->
+  <section id="potensi">
+    <h2>Potensi Desa</h2>
+    <div class="card"><img src="img/sawit.jpg" alt="Sawit" style="width:100%;border-radius:var(--radius);"><p>Perkebunan Sawit</p></div>
+    <div class="card"><img src="img/padi.jpg" alt="Padi" style="width:100%;border-radius:var(--radius);"><p>Pertanian Padi</p></div>
+    <div class="card"><img src="img/pinang.jpg" alt="Pinang" style="width:100%;border-radius:var(--radius);"><p>Perkebunan Pinang</p></div>
+  </section>
+
+  <!-- Alamat -->
+  <section id="alamat">
+    <h2>Alamat</h2>
+    <div class="card">
+      <p>Desa Batee Dabai, Kecamatan ..., Kabupaten Bireuen, Aceh</p>
+      <p>Email: info@desabateedabai.go.id</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Desa Batee Dabai. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.style.display = mobileMenu.style.display === "block" ? "none" : "block";
+    });
+
+    function closeMenu() {
+      mobileMenu.style.display = "none";
+    }
+  </script>
+</body>
+</html>
